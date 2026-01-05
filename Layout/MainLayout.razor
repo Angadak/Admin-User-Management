@@ -1,0 +1,52 @@
+﻿@inherits LayoutComponentBase
+<main class="full-box main-container">
+
+    <!-- Sidebar -->
+    <section class="full-box nav-lateral">
+        <div class="full-box nav-lateral-bg show-nav-lateral"></div>
+
+        <div class="full-box nav-lateral-content">
+            <figure class="full-box nav-lateral-avatar">
+                <i class="far fa-times-circle show-nav-lateral"></i>
+                <img src="assets/avatar/Avatar.png" class="img-fluid" alt="Avatar">
+                <figcaption class="roboto-medium text-center">
+                    Angad Kumar <br />
+                    <small class="roboto-condensed-light">Web Developer</small>
+                </figcaption>
+            </figure>
+
+            <div class="full-box nav-lateral-bar"></div>
+
+            <nav class="full-box nav-lateral-menu">
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-dashcube fa-fw"></i> &nbsp; Dashboard</a>
+                    </li>
+
+                    <li>
+                        <a href="/list-admin" class="nav-btn-submenu">
+                            <i class="fas fa-user-tie fa-fw"></i> &nbsp; List Admins
+
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="/admin">
+                                    <i class="fas fa-user-plus fa-fw"></i> &nbsp; New admin
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/list-admin" class="active">
+                                    <i class="fas fa-users fa-fw"></i> &nbsp; List admin
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section class="full-box page-content">
+        @Body
+    </section>
+</main>
+

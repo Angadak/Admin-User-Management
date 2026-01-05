@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|d:\\certification\\aspnetcoreblazortest\\adminusermanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|d:\\certification\\aspnetcoreblazortest\\adminusermanagement\\pages\\adminlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|solutionrelative:pages\\adminlist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|d:\\certification\\aspnetcoreblazortest\\adminusermanagement\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|solutionrelative:wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|d:\\certification\\aspnetcoreblazortest\\adminusermanagement\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|solutionrelative:layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|d:\\certification\\aspnetcoreblazortest\\adminusermanagement\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|solutionrelative:services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|d:\\certification\\aspnetcoreblazortest\\adminusermanagement\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5987075-0F8C-A3B6-D61A-655E2483E594}|AdminUserManagement.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "style.css",
+              "DocumentMoniker": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\style.css",
+              "ToolTip": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAAABgCAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-12-24T17:17:47.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminList.razor",
+              "DocumentMoniker": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Pages\\AdminList.razor",
+              "RelativeDocumentMoniker": "Pages\\AdminList.razor",
+              "ToolTip": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Pages\\AdminList.razor",
+              "RelativeToolTip": "Pages\\AdminList.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T15:25:51.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Layout\\NavMenu.razor",
+              "ToolTip": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-24T16:26:18.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:05:21.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T15:02:03.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\Certification\\AspNetCoreBlazorTest\\AdminUserManagement\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-24T14:59:15.547Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

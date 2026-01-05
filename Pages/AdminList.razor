@@ -1,0 +1,138 @@
+﻿@page "/list-admin"
+@using AdminUserManagement.Components
+@using AdminUserManagement.Models
+@inject IUserService UserService
+
+@* @if (!string.IsNullOrEmpty(loaderMessage))
+{
+    <div class="alert alert-success mt-3">
+        @loaderMessage
+    </div>
+}
+ *@
+<!-- Top navbar -->
+<nav class="full-box navbar-info">
+    <a href="#" class="float-left show-nav-lateral">
+        <i class="fas fa-exchange-alt"></i>
+    </a>
+</nav>
+
+<!-- Header -->
+<div class="full-box page-header">
+    <h3 class="text-left">
+        <i class="fas fa-users fa-fw"></i> &nbsp; LIST ADMIN
+    </h3>
+    <p class="text-justify">
+        Below is the list of administrators fetched from the API.
+    </p>
+</div>
+
+<!-- Tabs -->
+<div class="container-fluid">
+    <ul class="full-box list-unstyled page-nav-tabs">
+        <li>
+            <a class="active" href="/list-admin">
+                <i class="fas fa-users fa-fw"></i> &nbsp; LIST ADMIN
+            </a>
+        </li>
+    </ul>
+</div>
+
+<!-- LIST TABLE -->
+<div class="container-fluid">
+
+    @if (users == null)
+    {
+        <div id="app"> <div class="loader"></div></div>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-dark table-sm">
+                <thead>
+                    <tr class="text-center">
+                        <th>ID</th>
+                        <th>Name</th>
+                        <th>Username</th>
+                        <th>Email</th>
+                        <th>Company</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var user in users)
+                    {
+                        <tr class="text-center">
+                            <td>@user.Id</td>
+                            <td>@user.Name</td>
+                            <td>@user.Username</td>
+                            <td>@user.Email</td>
+                            <td>@user.Company?.Name</td>
+                            <td>
+                                <button class="btn btn-danger btn-sm"
+                                        @onclick="() => OpenDelete(user)">
+                                    <i class="far fa-trash-alt"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    }
+</div>
+<DeleteConfirmation Visible="showDeletePopup"
+                    Title="Delete Admin"
+                    Message="Are you sure you want to delete this admin?"
+                    OnConfirm="DeleteUser"
+                    OnCancel="CloseDelete" />
+
+@code {
+    List<User> users = new();
+    User? selectedUser;
+    bool showDeletePopup;
+    // string? loaderMessage;
+
+    protected override async Task OnInitializedAsync()
+    {
+        users = await UserService.GetUsersAsync();
+    }
+
+    void OpenDelete(User user)
+    {
+        selectedUser = user;
+        showDeletePopup = true;
+    }
+
+    void DeleteUser()
+    {
+        if (selectedUser != null)
+        {
+            users.Remove(selectedUser);
+        }
+        showDeletePopup = false;
+    }
+
+    void CloseDelete()
+    {
+        showDeletePopup = false;
+    }
+
+
+    // protected override async Task OnAfterRenderAsync(bool firstRender)
+    // {
+    //     if (firstRender)
+    //     {
+    //         var objRef = DotNetObjectReference.Create(this);
+    //         await JS.InvokeVoidAsync("showLoader", objRef);
+    //     }
+    // }
+
+    // [JSInvokable]
+    // public Task OnLoaderCompleted()
+    // {
+    //     // handle completion
+    //     return Task.CompletedTask;
+    // }
+}
