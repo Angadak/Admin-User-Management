@@ -1,0 +1,62 @@
+{
+  "mainAssemblyName": "AdminUserManagement",
+  "resources": {
+    "hash": "sha256-n/TmrxCUFWt7eu+GDMRqaXB0Oth6lNdi2bjyyOi1f5A=",
+    "jsModuleNative": {
+      "dotnet.native.js": "sha256-vtotCeXt2UD6oc459laJT32vBgigZ+eLoUmdeFkvYDk="
+    },
+    "jsModuleRuntime": {
+      "dotnet.runtime.js": "sha256-6bV/iAemowb59rmItegP8VsxwWpWUNyMb0Q76Fvvsjo="
+    },
+    "wasmNative": {
+      "dotnet.native.wasm": "sha256-I9mo79uNpf37/J/jYCGkW9F0w+mgb+ezeNdHNbQNvf0="
+    },
+    "icu": {
+      "icudt_CJK.dat": "sha256-SZLtQnRc0JkwqHab0VUVP7T3uBPSeYzxzDnpxPpUnHk=",
+      "icudt_EFIGS.dat": "sha256-8fItetYY8kQ0ww6oxwTLiT3oXlBwHKumbeP2pRF4yTc=",
+      "icudt_no_CJK.dat": "sha256-L7sV7NEYP37/Qr2FPCePo5cJqRgTXRwGHuwF5Q+0Nfs="
+    },
+    "coreAssembly": {},
+    "assembly": {
+      "Microsoft.AspNetCore.Components.wasm": "sha256-gGGVzAFycX8969XSbfc18ThcpHq3jyBZUZ/EiKEJi+8=",
+      "Microsoft.AspNetCore.Components.Web.wasm": "sha256-J82JuzcrEGp6b8uoZfrow75Cj7jlFMmB6JzRAfooTWY=",
+      "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-rgatSEY0UxM1plTCtrJEWmv6ZA0f+yjwezefHEYa+HA=",
+      "Microsoft.Extensions.Configuration.wasm": "sha256-od574rRtVVRJj+24jbl8j3GdQFpxlJOpSx+pEMw1Q18=",
+      "Microsoft.Extensions.Configuration.Abstractions.wasm": "sha256-XR+WUfg8LtnrwdXFBnV+qO3ROyp6cYCfl1AZajIAheM=",
+      "Microsoft.Extensions.Configuration.Json.wasm": "sha256-Nbv4DDWJLbUri+9QrX+3vnA2FV/Qux8Jm1buTARMlBs=",
+      "Microsoft.Extensions.DependencyInjection.wasm": "sha256-gPl1KWGxLIxxQgQ9BG1m/niMzqZGG651efBdnDY3kDc=",
+      "Microsoft.Extensions.DependencyInjection.Abstractions.wasm": "sha256-MLxcXTnxE5mgBa1/1lQwIiUTEugNrehk3ipHk3zd9Vw=",
+      "Microsoft.Extensions.Logging.wasm": "sha256-KCdgvZvpkT0QTlCjj/PtlVlJnNw1mDlJAtaRSWXz0YM=",
+      "Microsoft.Extensions.Logging.Abstractions.wasm": "sha256-zzRcMlPQNM26LZU9SaBhrTTpnhjGsVxhIjhTJnwzvt0=",
+      "Microsoft.Extensions.Options.wasm": "sha256-mngxZ7DtB5tYzmxZdVWZapJTSJ/yGClqQAcqOkLk3Lk=",
+      "Microsoft.Extensions.Primitives.wasm": "sha256-Bi1hyBMWneH/ByWbqT/pNe0B7I/NQFklzD2g3Whdqlk=",
+      "Microsoft.JSInterop.wasm": "sha256-VsRfNL4tWG+0Pdz0lxZMAuGGVWMNj2LKKWjH6c+cIUI=",
+      "Microsoft.JSInterop.WebAssembly.wasm": "sha256-jY5jCfGtvxvrCqIe6qLo82M6eF/a19pO3pO7KbeBzSg=",
+      "System.Collections.Concurrent.wasm": "sha256-1VsWJDZOjHhGgkeARctS8GDDlgoxhawD8YVXMzt3rNE=",
+      "System.Collections.wasm": "sha256-ghuVCgjKE3UiE8QRLl4DZS6vaOyIJm9vox95mws3Ehw=",
+      "System.ComponentModel.wasm": "sha256-LhJJEJ3iG2a04R9QyKFhRpkVTpEn74e9ukCtx8oGZ40=",
+      "System.Console.wasm": "sha256-CPUpsOPVlxH36cm2dHRRl2xzqEvx7rhQGCw8ORdZyho=",
+      "System.Diagnostics.DiagnosticSource.wasm": "sha256-XC2AKGgjzIuJU3y+K2FO8RtYdAY3VHYG6uBcFN+HMOY=",
+      "System.Linq.wasm": "sha256-fOeV5yB/i/lrLNZx6KxSkO5mFgsJF4kX6Jtp10OMIDU=",
+      "System.Memory.wasm": "sha256-Oq9UQBaIAhWyqvCLp+a38H24Pn8ozR+UzdtYmlnjpNs=",
+      "System.Net.Http.Json.wasm": "sha256-iwUDb49085N8rDl6vjd3XLQ3vrWak8jgiFfmJaTo45I=",
+      "System.Net.Http.wasm": "sha256-daTJgJmB2XK1jEY0yFJYe1kctdvDmWCFXcEPZZ+ng/g=",
+      "System.Net.Primitives.wasm": "sha256-qQQJFBo8rvgAI/UP5cWf04bempHFvT5eSfb8xhLv0og=",
+      "System.Private.Uri.wasm": "sha256-OuUWCATbiNXIKPRgx9LJTCbSEl31/lZKuCSX4BIdXyk=",
+      "System.Runtime.InteropServices.JavaScript.wasm": "sha256-HoMTDuTDnPPGz33cAhUPWnjlBFwLPlXJmatxg7HMeac=",
+      "System.Runtime.wasm": "sha256-PWxopzPQF7OY46sai8LBm14TlKRWj7iJEJu7a9JYZhU=",
+      "System.Text.Encodings.Web.wasm": "sha256-W1+3Cs/g9HhgLy8QR8yJAQbxhEi61ZFQGNgOUretBKQ=",
+      "System.Text.Json.wasm": "sha256-t7kxB26qjmY6qxS+DjESrKgOnF5UcHmMiSmpMP4lDDw=",
+      "System.Text.RegularExpressions.wasm": "sha256-N5iEwt2bfvrglh1Ef1pkKFXQo82wOkhE64+4FGK7Ru8=",
+      "System.Private.CoreLib.wasm": "sha256-McalU+lVDkktJ8s1xoo3UabzYRkhsXPxhQA3sQWY2z0=",
+      "AdminUserManagement.wasm": "sha256-c2+CcgC8+1iz69jvqgLrT6g2Cv6U/FL5Ww7Cff0Q1tc="
+    }
+  },
+  "cacheBootResources": true,
+  "debugLevel": 0,
+  "linkerEnabled": true,
+  "globalizationMode": "sharded",
+  "extensions": {
+    "blazor": {}
+  }
+}

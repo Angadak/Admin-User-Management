@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdminUserManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+373471cfeb6ded3e6c5130e407661be82064eac1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1d9d3bdd959f8375a8117bfcbdc835df3fed11cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdminUserManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdminUserManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>AdminUserManagement</title>
+    <base href="/" />
+
+    <!-- TEMPLATE CSS -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-material-design.min.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- Blazor -->
+    <link href="AdminUserManagement.styles.css" rel="stylesheet" />
+    <style>
+        /* From Uiverse.io by Shoh2008 */
+        .loader {
+            width: 48px;
+            height: 48px;
+            background: #353535;
+            display: block;
+            margin: 20px auto;
+            position: relative;
+            box-sizing: border-box;
+            animation: rotationBack 1s ease-in-out infinite reverse;
+        }
+
+            .loader::before {
+                content: '';
+                box-sizing: border-box;
+                left: 0;
+                top: 0;
+                transform: rotate(45deg);
+                position: absolute;
+                width: 48px;
+                height: 48px;
+                background: #2e2e2e;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+            }
+
+            .loader::after {
+                content: '';
+                box-sizing: border-box;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                background: rgb(0, 0, 0);
+                transform: translate(-50%, -50%);
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+            }
+
+        @keyframes rotationBack {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        .d-flex {
+            height: 100vh; /* full viewport height */
+            width: 100vw; /* full viewport width */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center align-items-center align-content-center">
+        <!-- From Uiverse.io by Shoh2008 -->
+        <div class="inner">
+            <div id="app">
+                <div class="loader"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TEMPLATE JS (ORDER MATTERS) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/bootstrap-material-design.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/Site.js"></script>
+    <script src="js/sweetalert2.min.js"></script>
+
+
+    <!-- Blazor -->
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+</html>
